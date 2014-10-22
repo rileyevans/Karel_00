@@ -2,8 +2,8 @@
 *
 * Description of the program goes here  // provide a brief description
 *
-* @author <Your Name here>  // replace <...> with your name
-* @version <date/of/completion> // replace <...> with the date
+* @author <Riley Evans>  // replace <...> with your name
+* @version <10/22/2014> // replace <...> with the date
 */
 
 import edu.fcps.karel2.Display;
@@ -17,6 +17,14 @@ public class Lab00 {
    Display.setSpeed(3);
    Robot karel = new Robot();
    karel.move();
+     karel.pickBeeper();
    karel.move();
+   karel.turnLeft();
+   karel.move();
+   karel.putBeeper();
+   karel.move();
+   karel.turnLeft();
+   
+   
      }
 }
